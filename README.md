@@ -1,5 +1,5 @@
-# KiemthuvoiJava
-# Unit Testing with JUnit in Java
+# Kiểm thử đơn vị với Java
+## Unit Testing with JUnit in Java
 
 ## Overview
 This project demonstrates the usage of **JUnit 5** for unit testing in a simple Java application. It includes a `Calculator` class with basic arithmetic operations and corresponding unit tests written in JUnit.
@@ -83,7 +83,6 @@ You can run the tests directly in an IDE like IntelliJ IDEA or Eclipse by right-
 
 ---
 
-## Test Results
 
 ### Sample Output
 Below is the output from running the tests using Maven:
@@ -101,7 +100,7 @@ Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
 BUILD SUCCESS
 ```
 
-### Test Coverage Screenshot
+## Test Coverage Screenshot
 ![image](https://github.com/user-attachments/assets/5be8893b-2a7e-4fda-ae63-7289399b88d6)
 ---
 
@@ -117,8 +116,9 @@ BUILD SUCCESS
   </dependency>
   ```
 
-### Liên kết chia sẻ ChatGPT
+## Liên kết chia sẻ ChatGPT
+https://chatgpt.com/share/677b4a57-46dc-8003-bbfb-4ad3491ae60c
 ---
 
 ## Author
-[Your Name]
+[Xuân Trường]
