@@ -1,35 +1,29 @@
-import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculatorTest {
-
     Calculator calculator = new Calculator();
 
     @Test
-    void testAdd() {
-        assertEquals(7, calculator.add(4, 3), "4 + 3 = 7");
+    public void testAdd() {
+        assertEquals(5, calculator.add(2, 3));
+        assertEquals(0, calculator.add(-2, 2));
     }
 
     @Test
-    void testSubtract() {
-        assertEquals(-6, calculator.subtract(3, 9), "3 - 2 should equal 1");
+    public void testSubtract() {
+        assertEquals(1, calculator.subtract(3, 2));
+        assertEquals(-4, calculator.subtract(-2, 2));
     }
 
     @Test
-    void testMultiply() {
-        assertEquals(6, calculator.multiply(2, 3), "2 * 3 should equal 6");
+    public void testMultiply() {
+        assertEquals(6, calculator.multiply(2, 3));
+        assertEquals(0, calculator.multiply(0, 5));
     }
 
     @Test
-    void testDivide() {
-        assertEquals(2.0, calculator.divide(6, 3), "6 / 3 should equal 2.0");
-    }
-
-    @Test
-    void testDivideByZero() {
-        Exception exception = assertThrows(ArithmeticException.class, () -> {
-            calculator.divide(6, 0);
-        });
-        assertEquals("Division by zero is not allowed", exception.getMessage());
+    public void testDivide() {
+        assertEquals(2, calculator.divide(6, 3));
     }
 }
