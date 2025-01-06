@@ -117,7 +117,7 @@ BUILD SUCCESS
   ```
 
 ## Liên kết chia sẻ ChatGPT
-https://chatgpt.com/share/677b4a57-46dc-8003-bbfb-4ad3491ae60c
+!https://chatgpt.com/share/677b4a57-46dc-8003-bbfb-4ad3491ae60c
 ---
 
 ## Author
