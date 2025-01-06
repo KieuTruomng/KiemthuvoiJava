@@ -116,7 +116,7 @@ BUILD SUCCESS
   </dependency>
   ```
 
-## Liên kết chia sẻ ChatGPT
+## Link share ChatGPT
 ##### https://chatgpt.com/share/677b4a57-46dc-8003-bbfb-4ad3491ae60c
 ---
 
